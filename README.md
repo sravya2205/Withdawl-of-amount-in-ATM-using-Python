@@ -10,5 +10,7 @@ if pin==spin:
     elif amount<balance:
         print("amount withdrawl",amount)
         print("remaining balance",balance-amount)
+        print("Thnakyou for banking with SBI")
+        print("please visit again")
 else:
-    print("error")
+    print("Access denied...wrong pin")
